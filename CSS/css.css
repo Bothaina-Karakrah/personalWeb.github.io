@@ -1,0 +1,102 @@
+body{
+  color: black;
+  font-size: 120%;
+  font-weight: 500;
+  line-height: 1.2em;
+  font-family:sans-serif;
+  margin-left: 3%;
+}
+
+p{
+  line-height: 2;
+}
+
+a{
+  color: black;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+hr{
+}
+
+h2{
+  margin-top: 5%;
+  font-family: 'Philosopher', sans-serif;
+  color: #686868;
+}
+
+h4{
+  color: #878a8f;
+  margin: 5% 0;
+  text-decoration: underline;
+}
+
+
+.gray_container{
+  font-family: 'Philosopher', sans-serif;
+  color: #878a8f;
+}
+
+
+/* navbar */
+.navbar-brand{
+  font-size: 1.3em;
+}
+
+.nav-item{
+  padding: 0 20px;
+  font-size: 0.9em;
+}
+
+/* wellcom */
+.wellcom_container{
+  font-family: 'Philosopher', sans-serif;
+  font-size:100%;
+}
+
+.top-wellcom-container{
+  font-size: 2.3em;
+  color: #686868;
+}
+
+
+.wellcom_p{
+  margin: 5% 0 0 0;
+}
+
+.personal_photo{
+  width: 100%;
+}
+
+/* skills */
+.skill-row{
+  margin: 100px auto 100px auto;
+}
+
+.skill-texts{
+  margin-left: 25%;
+}
+
+.skills-pic{
+  float: left;
+}
+
+#contact_me{
+  text-align: center;
+  font-weight: 400;
+  font_height: 0.8em;
+  line-height: 1.25em;
+  letter-spacing: 0.03em;
+}
+
+.icons{
+  margin-left: 4%;
+}
+
+.social-icon{
+  margin: 5px 20px;
+  color: #878a8f;
+}
