@@ -8,6 +8,8 @@ body{
 
 p{
   line-height: 2;
+  word-spacing: 5px;
+  padding-left: 3%;
 }
 
 a{
@@ -18,18 +20,23 @@ a:link{
   text-decoration: none;
 }
 
+a:hover{
+  color: #686868;
+}
+
 h2{
   margin-top: 5%;
   font-family: 'Philosopher', sans-serif;
   color: #686868;
+  padding-left: 3%;
 }
 
 h4{
   color: #878a8f;
   margin: 5% 0;
   text-decoration: underline;
+  padding-left: 3%;
 }
-
 
 .gray_container{
   font-family: 'Philosopher', sans-serif;
@@ -40,11 +47,11 @@ h4{
 /* NAVBAR */
 .navbar{
   background: black;
-  color: #fff;
 }
 
 .navbar-brand{
   font-size: 1.3em;
+  color: #fff;
 }
 
 .nav-item{
@@ -55,7 +62,6 @@ h4{
 .nav-link{
   color: #fff;
 }
-
 
 /* WELLCOM CONTAINER */
 .wellcom_container{
@@ -93,6 +99,7 @@ h4{
 
 .skills-pic{
   float: left;
+  padding-left: 3%;
 }
 
 
@@ -104,7 +111,7 @@ h4{
 
 .card{
   width: 16em;
-  height: 20em;
+  height: 19em;
   margin: 0 15%;
 }
 
@@ -136,19 +143,18 @@ h4{
   }
 }
 
-/* SMASH */
-
-/* LIST */
-.smash-ul{
+.projects-ul{
   line-height: 2;
+  word-spacing: 5px;
 }
 
-.smash-li{
+.projects-li{
   margin: 3% 0;
   color: #878a8f;
 }
 
-.shell-photo{
+/* SMASH */
+.photo{
   width: 100%;
 }
 

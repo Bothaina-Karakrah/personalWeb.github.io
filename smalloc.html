@@ -51,6 +51,56 @@
   </div>
     </nav>
 
+    <!-- top comtainer -->
+    <div class="smalloc-top">
+      <div class="row">
+
+        <div class="col-lg-8">
+          <h2>SMALLOC - SIMPLE MALLOC</h2>
+          <p data-aos="fade-up" data-aos-duration= "1000">
+            One of the operation system course (234123) projects was to write a simple malloc function. <br>
+            Our smalloc was implemented using sbrk and mmap function according to the size that requested. <br>
+            the projects contain 4 main functon:
+            <ul class="projects-ul">
+              <li class="projects-li" data-aos="fade-up" data-aos-duration= "1000">
+                "smalloc size": searches for a free block which size bigger than "size" bytes and split it if there are more than 128B extra bytes to fit the "size"
+                or allocates if none are found, if size smaller than 128KB use sbrk, otherwise, use mmap.
+              </li>
+
+              <li class="projects-li" data-aos="fade-up" data-aos-duration= "1000">
+                "scalloc num size": searches for a block of "num" elements, each "size" bytes then set all to 0 or allocates if none are found.
+              </li>
+
+              <li class="projects-li" data-aos="fade-up" data-aos-duration= "1000">
+                "sfree pointer": releases the usage of the block that starts with the pointer, if the prev or next block is free then merge them.
+              </li>
+
+              <li class="projects-li" data-aos="fade-up" data-aos-duration= "1000">
+                "srealloc old_pointer size": if "size" is smaller than the current block’s size then reuse the same block.
+                Otherwise split the first block with a size bigger than the requested, and finally if nothing worked\ allocate new memory.
+                 copy the content of old space into new space and frees the old space.
+              </li>
+            </ul>
+          </p>
+
+          <br>
+
+          <p data-aos="fade-up" data-aos-duration= "1000">
+            We implement our smalloc using c++ programming language, we create an object for memory allocation which contains the allocated size, if it free, a pointer to the start of the block. <br>
+            We chose to save the memory allocated in the linked list like the real one. <br>
+            <span class="code-span">You can take a look at the <a href="https://github.com/Bothaina-Karakrah/virtualMemory">code</a></span>
+          </p>
+
+        </div>
+
+        <div class="col-lg-4" data-aos="fade-down" data-aos-duration= "1000">
+          <img class="photo" src="photos/malloc.png" alt="shell photo">
+        </div>
+
+      </div>
+    </div>
+
+<hr>
 
     <!-- contact me -->
     <div id="contact_me">
