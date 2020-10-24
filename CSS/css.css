@@ -144,12 +144,17 @@ h4{
 }
 
 .smash-li{
-  margin: 2% 0;
+  margin: 3% 0;
   color: #878a8f;
 }
 
 .shell-photo{
   width: 100%;
+}
+
+.shell-pic{
+  width: 75%;
+  margin: 5% 10%;
 }
 
 .code-span{
