@@ -4,7 +4,6 @@ body{
   font-weight: 500;
   line-height: 1.2em;
   font-family:sans-serif;
-  margin-left: 3%;
 }
 
 p{
@@ -17,9 +16,6 @@ a{
 
 a:link{
   text-decoration: none;
-}
-
-hr{
 }
 
 h2{
@@ -42,6 +38,11 @@ h4{
 
 
 /* NAVBAR */
+.navbar{
+  background: black;
+  color: #fff;
+}
+
 .navbar-brand{
   font-size: 1.3em;
 }
@@ -51,20 +52,22 @@ h4{
   font-size: 0.9em;
 }
 
-.navbar-toggler{
-  background-color: #686868;
+.nav-link{
+  color: #fff;
 }
 
-/* TOP CONTAINER */
+
+/* WELLCOM CONTAINER */
 .wellcom_container{
+  /* background-color: #191919; */
+  background-color: black;
   font-family: 'Philosopher', sans-serif;
+  color: #fff;
 }
 
 .top-wellcom-container{
   font-size: 2.3em;
-  color: #878a8f;
 }
-
 
 .wellcom_p{
   margin: 5% 0 0 0;
@@ -73,6 +76,11 @@ h4{
 .personal_photo{
   width: 100%;
 }
+
+.wellcom_link{
+  color: #fff;
+}
+
 
 /* SKILLS */
 .skill-row{
@@ -87,10 +95,24 @@ h4{
   float: left;
 }
 
+
 /* PROJECTS */
 .projects-col{
   text-align: center;
+  margin: 100px auto 100px auto;
 }
+
+.card{
+  width: 16em;
+  height: 20em;
+  margin: 0 15%;
+}
+
+.card-title{
+  text-decoration: underline;
+  color: #878a8f;
+}
+
 
 /* CONTACT ME */
 #contact_me{

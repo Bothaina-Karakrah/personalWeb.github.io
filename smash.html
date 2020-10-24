@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Smash</title>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Philosopher:ital@1&display=swap" rel="stylesheet">
+
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/cd538c6889.js" crossorigin="anonymous"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="CSS/css.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md  sticky-top">
+       <span class="navbar-brand">BOTHAINA</span>
+      <!-- for button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+         <!-- ml = margin left -->
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#Home">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#Skills">SKILLS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#Projects">PROJECTS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact_me">CONTACT</a>
+        </li>
+      </ul>
+  </div>
+    </nav>
+
+    <div class="smash-wellcom">
+      <h2>SMASH - SMALL SHELL</h2>
+      <p>One of the operation system course (234123) projects was to built a simple linux shell. <br>
+        Our shell has many attrbutes:
+        <ul>
+          <li>"chprompt new_prompt": allow the user to change the prompt displayed.<br>
+            If no parameters were sent to then the prompt shall be reset to smash, otherwise change the prompt display to the string which we received.
+          </li>
+
+          <li>"showpid": prints the smash pid.</li>
+
+          <li>"pwd": prints the full path of the current working directory.</li>
+
+          <li>"cd new_path": change directory <br>
+            - "cd -": change the directory to the last working directory.<br>
+            - "cd path": change the directory to the directory which path parameter is its path.
+          </li>
+
+          <li>"jobs": jobs command prints the jobs list which contains: <br>
+            - background jobs. <br>
+            - stopped jobs.
+          </li>
+
+          <li>"kill -signum job ID" :sends a signal which its number specified by "signum" to the job which its
+            sequence ID in jobs list is "job ID".
+          </li>
+
+          <li>"fg": brings a stopped process or a process that runs in the background to the
+            foreground.<br>
+            - "fg job_ID": resume the job with job_ID. <br>
+            - "fg": resume the max job in job list.
+          </li>
+
+          <li>"bg": resumes one of the stopped processes in the background. <br>
+            - "bg job_ID": resume the job with job_ID. <br>
+            - "bg": resume the last stopped job in job list.
+          </li>
+
+          <li>"quit": exits the smash. <br>
+            - "quit kill": print the jobs which killed before existing.
+          </li>
+
+          <li>"external": executing external commands that are not part of the built-in commands.
+          </li>
+
+          <li>"pipe":<br>
+            - "command1 | command2": redirects command1 stdout to its write channel and command2 stdin to its read channel. <br>
+            - "command1 |& command2": redirects command1 stderr to the pipe’s write channel and command2 stdin to the
+pipe’s read channel.
+          </li>
+
+          <li>I/O: <br>
+            - "command > output_file.txt": causes the command stdout file-descriptor to be redirected to output-file and writes
+            any output produced by “command” to the given “output-file”.<br>
+            - "command >> output_file.txt": will append command output to the given output-file if exists.<br>
+            If the output-file does not exist then it creates it and if it exists then it overrides its content.
+          </li>
+
+          <li>"cp oldPath newPath": copies a file from oldPath which could be a relative or full path to an
+            existing file to a new file specified by the newPath which could be a relative or
+            full path.
+          </li>
+        </ul>
+      </p>
+    </div>
+
+<hr>
+
+    <!-- contact me -->
+    <div id="contact_me">
+      <h2>Get In Touch<br></h2>
+      <p>
+      Feel free to reach out to me any time <br>
+        <a href="mailto:bothaina.karakrah@hotmail.com"><i class="social-icon far fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/bothaina-karakrah-57458219a/"><i class="social-icon fab fa-linkedin"></i></a>
+      <br>
+          Made with <i class="fas fa-heart"></i> by Bothaina Karakrah.</p>
+    </div>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  </body>
+</html>
