@@ -6,10 +6,24 @@ body{
   font-family:sans-serif;
 }
 
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 170%;
+  }
+
+  p{
+    padding-left: 7%;
+  }
+
+  .skill-texts{
+    margin-left: 45%;
+  }
+}
+
 p{
   line-height: 2;
   word-spacing: 5px;
-  padding-left: 3%;
+  padding-left: 5%;
 }
 
 a{
@@ -28,14 +42,14 @@ h2{
   margin-top: 5%;
   font-family: 'Philosopher', sans-serif;
   color: #686868;
-  padding-left: 3%;
+  padding-left: 5%;
 }
 
 h4{
   color: #878a8f;
   margin: 5% 0;
   text-decoration: underline;
-  padding-left: 3%;
+  padding-left: 5%;
 }
 
 .gray_container{
@@ -99,7 +113,7 @@ h4{
 
 .skills-pic{
   float: left;
-  padding-left: 3%;
+  padding-left: 5%;
 }
 
 
@@ -135,12 +149,6 @@ h4{
 .social-icon{
   margin: 5px 20px;
   color: #686868;
-}
-
-@@media screen (max-width 600px) {
-  body{
-    font-size: 200%;
-  }
 }
 
 .projects-ul{
