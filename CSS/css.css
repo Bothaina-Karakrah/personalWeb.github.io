@@ -11,6 +11,10 @@ body{
     font-size: 170%;
   }
 
+  p{
+    padding-left: 7%;
+  }
+
   .skill-texts{
     margin-left: 45%;
   }
@@ -19,6 +23,7 @@ body{
 p{
   line-height: 2;
   word-spacing: 5px;
+  padding-left: 5%;
 }
 
 a{
