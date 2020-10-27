@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-md  sticky-top">
+       <span class="navbar-brand">BOTHAINA</span>
+      <!-- for button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+         <!-- ml = margin left -->
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#Home">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Skills">SKILLS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Projects">PROJECTS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact_me">CONTACT</a>
+        </li>
+      </ul>
+  </div>
+    </nav>
+
+    <!-- wellcom -->
+    <div id="Home" class="wellcom_container container">
+      <div class="row" style="background-color : red;">
+        <div  class="col-lg-7" data-aos="fade-up" data-aos-duration= "1000">
+          <p>Hi, <br>
+          I'm Bothaina Karakrah</p>
+          <p>
+          an electrical and computer engineering student.
+          </p>
+        </div>
+        <div class="col-lg-5">
+          <img style ="width : 100%;" class="personal_photo" src="photos/profilePic.JPG" alt="personal photo">
+        </div>
+      </div>
+      </div>
+
+
+      <div  id="Projects">
+          <h2>PROJECTS...</h2>
+          <div class="container">
+
+            <div class="row" data-aos="fade-up" data-aos-duration= "1000">
+
+              <div class="col-lg-4 col-md-6 projects-col">
+                <div class="card ">
+                  <img class="card-img-top" src="photos/shell.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Smash</h5>
+                    <p class="card-text">Simple linux shell</p>
+                    <a href="smash.html" class="btn btn-secondary btn-lg btn-block">Read more</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 projects-col">
+                <div class="card ">
+                  <img class="card-img-top" src="photos/malloc.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Smalloc</h5>
+                    <p class="card-text">Simple malloc system call function implementation.</p>
+                    <a href="smalloc.html" class="btn btn-secondary btn-lg btn-block">Read more</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 projects-col">
+                <div class="card ">
+                  <img class="card-img-top" src="photos/linked list.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Safe linked list</h5>
+                    <p class="card-text">Support processes which use threads</p>
+                    <a href="SafeLinkedList.html" class="btn btn-secondary btn-lg btn-block">Read more</a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div id="contact_me">
+          <h2>Get In Touch<br></h2>
+          <p>
+          Feel free to reach out to me any time <br>
+            <a href="mailto:bothaina.karakrah@hotmail.com"><i class="social-icon far fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/bothaina-karakrah-57458219a/"><i class="social-icon fab fa-linkedin"></i></a>
+          <br>
+              Made with <i class="fas fa-heart"></i> by Bothaina Karakrah.</p>
+        </div>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+
+  </body>
+</html>

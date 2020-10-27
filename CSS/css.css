@@ -11,10 +11,6 @@ body{
     font-size: 170%;
   }
 
-  p{
-    padding-left: 7%;
-  }
-
   .skill-texts{
     margin-left: 45%;
   }
@@ -23,7 +19,6 @@ body{
 p{
   line-height: 2;
   word-spacing: 5px;
-  padding-left: 5%;
 }
 
 a{
@@ -126,7 +121,7 @@ h4{
 .card{
   width: 16em;
   height: 19em;
-  margin: 0 15%;
+  margin: 0 10%;
 }
 
 .card-title{
