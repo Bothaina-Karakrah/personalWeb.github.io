@@ -6,6 +6,10 @@ body{
   font-family:sans-serif;
 }
 
+code-span{
+  background-color:#878a8f;
+}
+
 @media screen and (max-width: 600px) {
   body {
     font-size: 170%;
@@ -61,6 +65,7 @@ h4{
 /* NAVBAR */
 .navbar{
   background: black;
+  height: 60px;
 }
 
 .navbar-brand{
@@ -71,10 +76,35 @@ h4{
 .nav-item{
   padding: 0 20px;
   font-size: 0.9em;
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+}
+
+.nav-item:hover{
+  transform: rotateX(-180deg);
+  transition: 1.2s;
 }
 
 .nav-link{
   color: #fff;
+}
+
+.front{
+  color: #fff;
+  padding-top: 30px;
+  text-align: center;
+  backface-visibility: hidden;
+}
+
+.fas{
+  font-size: 35px;
+}
+
+.back{
+  transform: rotateX(-180deg);
+  position: relative;
+  bottom: 30px;
+  backface-visibility: hidden;
 }
 
 /* WELLCOM CONTAINER */
@@ -169,8 +199,4 @@ h4{
 .shell-pic{
   width: 75%;
   margin: 5% 10%;
-}
-
-.code-span{
-  background-color:#878a8f;
 }
