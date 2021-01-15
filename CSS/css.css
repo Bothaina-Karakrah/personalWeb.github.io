@@ -1,3 +1,8 @@
+*{
+  margin: 0
+  padding: 0;
+}
+
 body{
   color: black;
   font-size: 120%;
@@ -10,24 +15,9 @@ code-span{
   background-color:#878a8f;
 }
 
-@media screen and (max-width: 600px) {
-  body {
-    font-size: 170%;
-  }
-
-  p{
-    padding-left: 7%;
-  }
-
-  .skill-texts{
-    margin-left: 45%;
-  }
-}
-
 p{
   line-height: 2;
-  word-spacing: 5px;
-  padding-left: 5%;
+  word-spacing: 3px;
 }
 
 a{
@@ -46,14 +36,14 @@ h2{
   margin-top: 5%;
   font-family: 'Philosopher', sans-serif;
   color: #686868;
-  padding-left: 5%;
+  padding-left: 3%;
 }
 
 h4{
   color: #878a8f;
   margin: 5% 0;
   text-decoration: underline;
-  padding-left: 5%;
+  /* padding-left: 5%; */
 }
 
 .gray_container{
@@ -74,38 +64,11 @@ h4{
 }
 
 .nav-item{
-  padding: 0 20px;
-  font-size: 0.9em;
-  transform-style: preserve-3d;
-  -webkit-transform-style: preserve-3d;
-}
-
-.nav-item:hover{
-  transform: rotateX(-180deg);
-  transition: 1.2s;
-}
-
-.nav-link{
+  padding: 0 15px;
+  font-size: 0.95em;
   color: #fff;
 }
 
-.front{
-  color: #fff;
-  padding-top: 30px;
-  text-align: center;
-  backface-visibility: hidden;
-}
-
-.fas{
-  font-size: 35px;
-}
-
-.back{
-  transform: rotateX(-180deg);
-  position: relative;
-  bottom: 30px;
-  backface-visibility: hidden;
-}
 
 /* WELLCOM CONTAINER */
 .wellcom_container{
@@ -113,6 +76,7 @@ h4{
   background-color: black;
   font-family: 'Philosopher', sans-serif;
   color: #fff;
+  padding-left: 5%;
 }
 
 .top-wellcom-container{
@@ -129,6 +93,7 @@ h4{
 
 .wellcom_link{
   color: #fff;
+  text-decoration: underline;
 }
 
 
